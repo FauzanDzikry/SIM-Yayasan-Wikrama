@@ -1,0 +1,248 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>SIM YAYASAN
+		</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+	    <!----css3---->
+        <link rel="stylesheet" href="css/custom.css">
+
+		<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <!-- Data Table -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css">
+	
+	    <!--google material icon-->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+  
+
+
+
+<div class="wrapper">
+
+
+<div class="body-overlay"></div>
+
+
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="img/logoWk.png" class="img-fluid"/><span>SIM YAYASAN</span></h3>
+            </div>
+            <ul class="list-unstyled components">
+			<li  class="">
+                    <a href="index.html" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+                </li>
+		
+		      <div class="small-screen navbar-display">
+                <li class="dropdown d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#homeSubmenu0" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">notifications</i><span> 4 notification</span></a>
+                    <ul class="collapse list-unstyled menu" id="homeSubmenu0">
+                                    <li>
+                                    <a href="#">You have 5 new messages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">You're now friend with Mike</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wish Mary on her birthday!</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">5 warnings in Server Console</a>
+                                    </li>
+                    </ul>
+                </li>
+
+				</div>
+			
+			
+                <li class="dropdown">
+                    <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">person</i><span>Pegawai</span></a>
+                    <ul class="collapse list-unstyled menu" id="homeSubmenu1">
+                        <li class="">
+                            <a href="dataPegawai.html">Data Pegawai</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="sk.html"><i class="material-icons">email</i><span>Surat Keputusan</span></a>
+                </li>
+
+                <li class="active">
+                    <a href="absen.html"><i class="material-icons">date_range</i><span>Absen</span></a>
+                </li>
+
+            </ul>
+
+           
+        </nav>
+		
+		
+
+        <!-- Page Content  -->
+        <div id="content">
+		
+		<div class="top-navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                        <span class="material-icons">arrow_back_ios</span>
+                    </button>
+					
+                    <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="material-icons">more_vert</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">   
+                            <li class="dropdown nav-item">
+                                <a href="#" class="nav-link d-flex" data-toggle="dropdown">
+                                    <span class="material-icons">person</span><span class="ml-2">Dwi Prasetyo</span>
+                               </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+	    </div>
+			
+			
+			<div class="main-content">
+
+                <div class="d-flex justify-content-between">
+                    <div class="title">
+                        <h3><img src="img/Frame 3.png" class="img-fluid"> Data Absensi</h3>
+                    </div>
+                    <div class="location">
+                        Home / Absensi / <span style="color: #2196F3;">Data Absensi</span>
+                    </div>
+                </div>
+
+                  <!-- Table -->
+
+                  <div class="wrapperTable table-responsive">
+                    <table id="pegawaiTable" class="tables" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th><span style="color: #2196F3;">Data Absensi Dwi Prasetyo</span><hr></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <th>Jam Masuk</th>
+                                <th></th>
+                                <th>Tanggal</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>19:12</td>
+                                <td></td>
+                                <td>24 des</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>19:12</td>
+                                <td></td>
+                                <td>23 des</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>19:12</td>
+                                <td></td>
+                                <td>21 des</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   </div>
+
+                
+		    </div>
+					
+        </div>
+    </div>
+
+
+  
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!--Datatable By Bootstrap-->
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+
+    <!-- IonIcon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+				$('#content').toggleClass('active');
+            });
+			
+			 $('.more-button,.body-overlay').on('click', function () {
+                $('#sidebar,.body-overlay').toggleClass('show-nav');
+            });
+			
+        });
+       
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#pegawaiTable').DataTable({
+                "info": false,
+                "bSort": false,
+            });
+        } );
+    </script>
+
+
+
+  </body>
+  
+  </html>
+
+
